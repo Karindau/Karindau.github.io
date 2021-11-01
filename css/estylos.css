@@ -1,0 +1,45 @@
+body{
+    background-color:#141414 ;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+  
+}
+   
+.logotipo{
+    color:#e50914 ;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+}
+header nav a{
+    color:#fff ;
+    text-decoration: none;
+    margin: 15px;
+}
+header nav a:hover,
+header nav a.activo{
+    color:#e50914 ;
+    text-decoration: none;
+    margin: 10px;
+}
+.peliculasrecomendadas{
+    text-indent: 90px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color:#fff;
+}
+.peli1{
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
